@@ -1,0 +1,12 @@
+{
+  "container": {
+    "image": "docker:///ubuntu:14.04",
+    "options": ["-p", "8090:8090"]
+  },
+  "id": "ubuntu001",
+  "instances": "1",
+  "cpus": ".1",
+  "mem": "256",
+  "uris": [ ],
+  "cmd": "while true; do echo 'HTTP/1.0 200 Ok'; echo; echo 'Hello World' | nc -l 8090; done"
+}
