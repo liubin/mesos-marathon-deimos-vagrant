@@ -15,7 +15,7 @@ Basically under the instruction of http://mesosphere.io/learn/run-docker-on-meso
 In your host run.
 
 ```
-$ git clone git@github.com:liubin0329/mesos-marathon-deimos-vagrant.git
+$ git clone https://github.com/liubin/mesos-marathon-deimos-vagrant.git
 $ cd mesos-marathon-deimos-vagrant
 $ vagrant up
 ```
